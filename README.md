@@ -2,6 +2,8 @@
 
 [公式默写器](https://quinn0823.github.io/formula-writer/) 用于默写并检查物理学运动学公式.
 
+---
+
 ## 发行版
 
 - [Releases](https://github.com/Quinn0823/formula-writer/releases)
