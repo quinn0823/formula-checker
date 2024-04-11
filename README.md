@@ -17,3 +17,7 @@
 ## 存档
 
 - [存档列表](https://quinn0823.github.io/formula-writer/)
+
+---
+
+Copyright © 2023-2024 Quinn Qiu All Rights Reserved.
