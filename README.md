@@ -24,6 +24,6 @@
 
 更新日期：2025 年 04 月 26 日
 
-Copyright © 2025 Jonathan Chiu
+Copyright © 2023, 2024 Jonathan Chiu
 
 根据 [GNU General Public License v3.0](LICENSE) 进行许可。
