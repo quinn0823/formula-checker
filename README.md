@@ -6,9 +6,13 @@
 
 ## 存档
 
+*在浏览器中运行*
+
 - [存档列表](https://quinn0823.github.io/formula-writer/)
 
 ## 发行版
+
+*下载*
 
 - [最新版本](https://github.com/Quinn0823/formula-writer/releases/latest)
 
