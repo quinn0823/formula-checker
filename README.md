@@ -18,4 +18,4 @@
 
 Copyright © 2023, 2024 Jonathan Chiu
 
-根据 [GNU General Public License v3.0](LICENSE) 进行许可。
+根据 [GNU General Public License v3.0](LICENSE) 授权。
