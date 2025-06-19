@@ -17,11 +17,19 @@ Copyright © 2024 Jonathan Chiu -->
 
 	<style>
 		.latest {
-			color: green;
+			color: var(--green-light);
+		}
+
+		.latest:hover {
+			color: var(--green-contrast-light);
 		}
 
 		.archive {
-			color: orange;
+			color: var(--red-light);
+		}
+
+		.archive:hover {
+			color: var(--red-contrast-light);
 		}
 	</style>
 
@@ -30,7 +38,7 @@ Copyright © 2024 Jonathan Chiu -->
 	<meta name="author" content="Jonathan Chiu" />
 	<meta name="license" content="MIT" />
 	<meta name="copyright-year" content="2025" />
-	<meta name="updated-date" content="2025-05-28" />
+	<meta name="updated-date" content="2025-06-19" />
 
 	<link rel="canonical" href="https://quinn0823.github.io/formula-checker/" type="text/html" />
 
@@ -54,41 +62,39 @@ Copyright © 2024 Jonathan Chiu -->
 	</header>
 
 	<main>
-		<section>
-			<header>
-				<h2>存档</h2>
-			</header>
-			<main>
-				<details open>
-					<summary><span class="latest">最新版本</span></summary>
-					<ul>
-						<li>公式默写器 [202402091122]
-							<ul>
-								<li><a href="./archives/202402091122.html">在浏览器中运行</a></li>
-								<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122.sb3">下载 Scratch 文件</a></li>
-								<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122.html">下载 HTML 文件</a></li>
-								<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122_windows.zip">下载 Windows 版公式默写器</a></li>
-								<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122_macos.zip">下载适用于 Mac 的公式默写器</a></li>
-								<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122_linux.zip">下载 Linux 版公式默写器</a></li>
-							</ul>
-						</li>
-					</ul>
-				</details>
-				<details>
-					<summary><span class="archive">归档</span></summary>
-					<p class="com">在浏览器中运行：</p>
-					<ul>
-						<li><a href="./archives/202402091121.html">公式默写器 [202402091121]</a></li>
-						<li><a href="./archives/202402091120.html">公式默写器 [202402091120]</a></li>
-						<li><a href="./archives/202402091111.html">公式默写器 [202402091111]</a></li>
-						<li><a href="./archives/202402091122.html">公式默写器 [202402091122]</a></li>
-						<li><a href="./archives/202402091102.html">公式默写器 [202402091102]</a></li>
-						<li><a href="./archives/202402091053.html">公式默写器 [202402091053]</a></li>
-						<li><a href="./archives/202306290015.html">公式默写器 [202306290015]</a></li>
-					</ul>
-				</details>
-			</main>
-		</section>
+		<h2>存档</h2>
+		<details open>
+			<summary class="latest">最新版本</summary>
+			<div class="details-content">
+				<ul>
+					<li>公式默写器 [202402091122]
+						<ul>
+							<li><a href="./archives/202402091122.html">在浏览器中运行</a></li>
+							<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122.sb3">下载 Scratch 文件</a></li>
+							<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122.html">下载 HTML 文件</a></li>
+							<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122_windows.zip">下载 Windows 版公式默写器</a></li>
+							<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122_macos.zip">下载适用于 Mac 的公式默写器</a></li>
+							<li><a href="https://github.com/quinn0823/formula-checker/releases/download/202402091122/formula-checker_202402091122_linux.zip">下载 Linux 版公式默写器</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</details>
+		<details>
+			<summary class="archive">归档</summary>
+			<div class="details-content">
+				<p class="secondary">在浏览器中运行：</p>
+				<ul>
+					<li><a href="./archives/202402091121.html">公式默写器 [202402091121]</a></li>
+					<li><a href="./archives/202402091120.html">公式默写器 [202402091120]</a></li>
+					<li><a href="./archives/202402091111.html">公式默写器 [202402091111]</a></li>
+					<li><a href="./archives/202402091122.html">公式默写器 [202402091122]</a></li>
+					<li><a href="./archives/202402091102.html">公式默写器 [202402091102]</a></li>
+					<li><a href="./archives/202402091053.html">公式默写器 [202402091053]</a></li>
+					<li><a href="./archives/202306290015.html">公式默写器 [202306290015]</a></li>
+				</ul>
+			</div>
+		</details>
 	</main>
 
 	<footer id="universal-footer"></footer>
